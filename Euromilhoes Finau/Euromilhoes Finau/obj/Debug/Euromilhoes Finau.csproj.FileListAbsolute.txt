@@ -1,0 +1,10 @@
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\bin\Debug\Euromilhoes Finau.exe.config
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\bin\Debug\Euromilhoes Finau.exe
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\bin\Debug\Euromilhoes Finau.pdb
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes Finau.csprojAssemblyReference.cache
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes_Finau.Form1.resources
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes_Finau.Properties.Resources.resources
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes Finau.csproj.GenerateResource.cache
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes Finau.csproj.CoreCompileInputs.cache
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes Finau.exe
+C:\Users\noddy\source\repos\Euromilhoes Finau\Euromilhoes Finau\obj\Debug\Euromilhoes Finau.pdb
