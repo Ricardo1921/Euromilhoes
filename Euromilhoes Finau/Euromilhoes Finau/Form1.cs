@@ -17,39 +17,28 @@ namespace Euromilhoes_Finau
             InitializeComponent();
         }
 
-        private int nestrela = 0, nnumeros = 0;
+ 
+
+        euromilhoes E = new euromilhoes();
+        
 
         private void estrela(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
-            if (temp.Text =="X")
-            {
-                temp.Text = "";
-                nestrela--;
+            temp.Text = E.estrela(Convert.ToInt32(temp.Tag)-1);
+            teste.Text = E.listanest;
 
-            }
-            else if (nestrela<2)
-            {
-                temp.Text = "X";
-                nestrela++;
-            }
-            teste.Text = temp.Tag.ToString();
         }
+
 
         private void numeros(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nnumeros--;
-            }
-            else if (nnumeros < 5)
-            {
-                temp.Text = "X";
-                nnumeros++;
-            }
-            teste.Text = temp.Tag.ToString();
+            temp.Text = E.numero(Convert.ToInt32(temp.Tag)-1);
+            teste.Text = E.listanum;
         }
+
     }
+
 }
+

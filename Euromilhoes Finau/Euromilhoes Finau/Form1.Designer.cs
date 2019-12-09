@@ -58,7 +58,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -73,29 +72,19 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
@@ -114,6 +103,11 @@
             this.label84 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -475,463 +469,477 @@
             // label25
             // 
             this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Location = new System.Drawing.Point(101, 119);
+            this.label25.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label25.Location = new System.Drawing.Point(100, 128);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(36, 37);
+            this.label25.Size = new System.Drawing.Size(37, 37);
             this.label25.TabIndex = 76;
             this.label25.Tag = "1";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label25.Click += new System.EventHandler(this.numeros);
             // 
             // label26
             // 
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Location = new System.Drawing.Point(143, 119);
+            this.label26.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label26.Location = new System.Drawing.Point(142, 128);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(36, 37);
+            this.label26.Size = new System.Drawing.Size(37, 37);
             this.label26.TabIndex = 77;
             this.label26.Tag = "2";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label26.Click += new System.EventHandler(this.numeros);
             // 
             // label27
             // 
             this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Location = new System.Drawing.Point(185, 119);
+            this.label27.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label27.Location = new System.Drawing.Point(184, 128);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(36, 37);
+            this.label27.Size = new System.Drawing.Size(37, 37);
             this.label27.TabIndex = 78;
             this.label27.Tag = "3";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label27.Click += new System.EventHandler(this.numeros);
             // 
             // label28
             // 
             this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Location = new System.Drawing.Point(227, 119);
+            this.label28.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label28.Location = new System.Drawing.Point(226, 128);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(36, 37);
+            this.label28.Size = new System.Drawing.Size(37, 37);
             this.label28.TabIndex = 79;
             this.label28.Tag = "4";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label28.Click += new System.EventHandler(this.numeros);
             // 
             // label29
             // 
             this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Location = new System.Drawing.Point(269, 119);
+            this.label29.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label29.Location = new System.Drawing.Point(268, 128);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(36, 37);
+            this.label29.Size = new System.Drawing.Size(37, 37);
             this.label29.TabIndex = 80;
             this.label29.Tag = "5";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label29.Click += new System.EventHandler(this.numeros);
             // 
             // label30
             // 
             this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Location = new System.Drawing.Point(311, 119);
+            this.label30.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label30.Location = new System.Drawing.Point(310, 128);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(36, 37);
+            this.label30.Size = new System.Drawing.Size(37, 37);
             this.label30.TabIndex = 81;
             this.label30.Tag = "6";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label30.Click += new System.EventHandler(this.numeros);
-            // 
-            // label31
-            // 
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Location = new System.Drawing.Point(419, 283);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(36, 37);
-            this.label31.TabIndex = 82;
-            this.label31.Text = "label31";
             // 
             // label32
             // 
             this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Location = new System.Drawing.Point(101, 156);
+            this.label32.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label32.Location = new System.Drawing.Point(100, 165);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(36, 37);
+            this.label32.Size = new System.Drawing.Size(37, 37);
             this.label32.TabIndex = 82;
             this.label32.Tag = "7";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label32.Click += new System.EventHandler(this.numeros);
             // 
             // label33
             // 
             this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.Location = new System.Drawing.Point(143, 156);
+            this.label33.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label33.Location = new System.Drawing.Point(142, 165);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(36, 37);
+            this.label33.Size = new System.Drawing.Size(37, 37);
             this.label33.TabIndex = 83;
             this.label33.Tag = "8";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label33.Click += new System.EventHandler(this.numeros);
             // 
             // label34
             // 
             this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Location = new System.Drawing.Point(185, 156);
+            this.label34.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.Black;
+            this.label34.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label34.Location = new System.Drawing.Point(184, 165);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(36, 37);
+            this.label34.Size = new System.Drawing.Size(37, 37);
             this.label34.TabIndex = 84;
             this.label34.Tag = "9";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label34.Click += new System.EventHandler(this.numeros);
             // 
             // label35
             // 
             this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Location = new System.Drawing.Point(227, 156);
+            this.label35.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.Black;
+            this.label35.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label35.Location = new System.Drawing.Point(226, 165);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(36, 37);
+            this.label35.Size = new System.Drawing.Size(37, 37);
             this.label35.TabIndex = 85;
             this.label35.Tag = "10";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label35.Click += new System.EventHandler(this.numeros);
             // 
             // label36
             // 
             this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Location = new System.Drawing.Point(269, 156);
+            this.label36.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.Black;
+            this.label36.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label36.Location = new System.Drawing.Point(268, 165);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(36, 37);
+            this.label36.Size = new System.Drawing.Size(37, 37);
             this.label36.TabIndex = 86;
             this.label36.Tag = "11";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label36.Click += new System.EventHandler(this.numeros);
             // 
             // label37
             // 
             this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.Color.Black;
-            this.label37.Location = new System.Drawing.Point(311, 156);
+            this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label37.Location = new System.Drawing.Point(310, 165);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(36, 37);
+            this.label37.Size = new System.Drawing.Size(37, 37);
             this.label37.TabIndex = 87;
             this.label37.Tag = "12";
+            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label37.Click += new System.EventHandler(this.numeros);
             // 
             // label38
             // 
             this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.Black;
-            this.label38.Location = new System.Drawing.Point(101, 202);
+            this.label38.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label38.Location = new System.Drawing.Point(100, 211);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(36, 37);
+            this.label38.Size = new System.Drawing.Size(37, 37);
             this.label38.TabIndex = 88;
             this.label38.Tag = "13";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label38.Click += new System.EventHandler(this.numeros);
             // 
             // label39
             // 
             this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.Color.Black;
-            this.label39.Location = new System.Drawing.Point(143, 202);
+            this.label39.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label39.Location = new System.Drawing.Point(142, 211);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(36, 37);
+            this.label39.Size = new System.Drawing.Size(37, 37);
             this.label39.TabIndex = 89;
             this.label39.Tag = "14";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label39.Click += new System.EventHandler(this.numeros);
             // 
             // label40
             // 
             this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.Black;
-            this.label40.Location = new System.Drawing.Point(185, 202);
+            this.label40.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label40.Location = new System.Drawing.Point(184, 211);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(36, 37);
+            this.label40.Size = new System.Drawing.Size(37, 37);
             this.label40.TabIndex = 90;
             this.label40.Tag = "15";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label40.Click += new System.EventHandler(this.numeros);
             // 
             // label41
             // 
             this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.Black;
-            this.label41.Location = new System.Drawing.Point(227, 202);
+            this.label41.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label41.Location = new System.Drawing.Point(226, 211);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(36, 37);
+            this.label41.Size = new System.Drawing.Size(37, 37);
             this.label41.TabIndex = 91;
             this.label41.Tag = "16";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label41.Click += new System.EventHandler(this.numeros);
             // 
             // label42
             // 
             this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.Black;
-            this.label42.Location = new System.Drawing.Point(185, 239);
+            this.label42.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label42.Location = new System.Drawing.Point(184, 248);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(36, 37);
+            this.label42.Size = new System.Drawing.Size(37, 37);
             this.label42.TabIndex = 92;
             this.label42.Tag = "21";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label42.Click += new System.EventHandler(this.numeros);
             // 
             // label43
             // 
             this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.Black;
-            this.label43.Location = new System.Drawing.Point(269, 202);
+            this.label43.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label43.Location = new System.Drawing.Point(268, 211);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 37);
+            this.label43.Size = new System.Drawing.Size(37, 37);
             this.label43.TabIndex = 92;
             this.label43.Tag = "17";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label43.Click += new System.EventHandler(this.numeros);
             // 
             // label44
             // 
             this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.Color.Black;
-            this.label44.Location = new System.Drawing.Point(311, 202);
+            this.label44.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label44.Location = new System.Drawing.Point(310, 211);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(36, 37);
+            this.label44.Size = new System.Drawing.Size(37, 37);
             this.label44.TabIndex = 93;
             this.label44.Tag = "18";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label44.Click += new System.EventHandler(this.numeros);
             // 
             // label45
             // 
             this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.Black;
-            this.label45.Location = new System.Drawing.Point(101, 239);
+            this.label45.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label45.Location = new System.Drawing.Point(100, 248);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(36, 37);
+            this.label45.Size = new System.Drawing.Size(37, 37);
             this.label45.TabIndex = 94;
             this.label45.Tag = "19";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label45.Click += new System.EventHandler(this.numeros);
-            // 
-            // label46
-            // 
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.label46.ForeColor = System.Drawing.Color.Black;
-            this.label46.Location = new System.Drawing.Point(435, 299);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(36, 37);
-            this.label46.TabIndex = 95;
             // 
             // label47
             // 
             this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.Black;
-            this.label47.Location = new System.Drawing.Point(143, 243);
+            this.label47.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label47.Location = new System.Drawing.Point(142, 252);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(36, 37);
+            this.label47.Size = new System.Drawing.Size(37, 37);
             this.label47.TabIndex = 96;
             this.label47.Tag = "20";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label47.Click += new System.EventHandler(this.numeros);
             // 
             // label48
             // 
             this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.label48.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.Black;
-            this.label48.Location = new System.Drawing.Point(227, 243);
+            this.label48.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label48.Location = new System.Drawing.Point(226, 252);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(36, 37);
+            this.label48.Size = new System.Drawing.Size(37, 37);
             this.label48.TabIndex = 97;
             this.label48.Tag = "22";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label48.Click += new System.EventHandler(this.numeros);
             // 
             // label49
             // 
             this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.Black;
-            this.label49.Location = new System.Drawing.Point(269, 243);
+            this.label49.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label49.Location = new System.Drawing.Point(268, 252);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(36, 37);
+            this.label49.Size = new System.Drawing.Size(37, 37);
             this.label49.TabIndex = 98;
             this.label49.Tag = "23";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label49.Click += new System.EventHandler(this.numeros);
             // 
             // label50
             // 
             this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.Black;
-            this.label50.Location = new System.Drawing.Point(311, 243);
+            this.label50.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label50.Location = new System.Drawing.Point(310, 252);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(36, 37);
+            this.label50.Size = new System.Drawing.Size(37, 37);
             this.label50.TabIndex = 99;
             this.label50.Tag = "24";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label50.Click += new System.EventHandler(this.numeros);
             // 
             // label51
             // 
             this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.label51.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.Color.Black;
-            this.label51.Location = new System.Drawing.Point(101, 283);
+            this.label51.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label51.Location = new System.Drawing.Point(100, 292);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(36, 37);
+            this.label51.Size = new System.Drawing.Size(37, 37);
             this.label51.TabIndex = 100;
             this.label51.Tag = "25";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label51.Click += new System.EventHandler(this.numeros);
-            // 
-            // label52
-            // 
-            this.label52.BackColor = System.Drawing.Color.Transparent;
-            this.label52.ForeColor = System.Drawing.Color.Black;
-            this.label52.Location = new System.Drawing.Point(427, 291);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(36, 37);
-            this.label52.TabIndex = 101;
             // 
             // label53
             // 
             this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.ForeColor = System.Drawing.Color.Black;
-            this.label53.Location = new System.Drawing.Point(143, 283);
+            this.label53.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label53.Location = new System.Drawing.Point(142, 292);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(36, 37);
+            this.label53.Size = new System.Drawing.Size(37, 37);
             this.label53.TabIndex = 101;
             this.label53.Tag = "26";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label53.Click += new System.EventHandler(this.numeros);
-            // 
-            // label54
-            // 
-            this.label54.BackColor = System.Drawing.Color.Transparent;
-            this.label54.ForeColor = System.Drawing.Color.Black;
-            this.label54.Location = new System.Drawing.Point(443, 307);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(36, 37);
-            this.label54.TabIndex = 102;
             // 
             // label55
             // 
             this.label55.BackColor = System.Drawing.Color.Transparent;
+            this.label55.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.Color.Black;
-            this.label55.Location = new System.Drawing.Point(185, 283);
+            this.label55.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label55.Location = new System.Drawing.Point(184, 292);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(36, 37);
+            this.label55.Size = new System.Drawing.Size(37, 37);
             this.label55.TabIndex = 102;
             this.label55.Tag = "27";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label55.Click += new System.EventHandler(this.numeros);
-            // 
-            // label56
-            // 
-            this.label56.BackColor = System.Drawing.Color.Transparent;
-            this.label56.ForeColor = System.Drawing.Color.Black;
-            this.label56.Location = new System.Drawing.Point(451, 315);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(36, 37);
-            this.label56.TabIndex = 103;
             // 
             // label57
             // 
             this.label57.BackColor = System.Drawing.Color.Transparent;
+            this.label57.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.ForeColor = System.Drawing.Color.Black;
-            this.label57.Location = new System.Drawing.Point(227, 283);
+            this.label57.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label57.Location = new System.Drawing.Point(226, 292);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(36, 37);
+            this.label57.Size = new System.Drawing.Size(37, 37);
             this.label57.TabIndex = 103;
             this.label57.Tag = "28";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label57.Click += new System.EventHandler(this.numeros);
-            // 
-            // label58
-            // 
-            this.label58.BackColor = System.Drawing.Color.Transparent;
-            this.label58.ForeColor = System.Drawing.Color.Black;
-            this.label58.Location = new System.Drawing.Point(459, 323);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(36, 37);
-            this.label58.TabIndex = 104;
             // 
             // label59
             // 
             this.label59.BackColor = System.Drawing.Color.Transparent;
+            this.label59.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.Color.Black;
-            this.label59.Location = new System.Drawing.Point(269, 283);
+            this.label59.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label59.Location = new System.Drawing.Point(268, 292);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(36, 37);
+            this.label59.Size = new System.Drawing.Size(37, 37);
             this.label59.TabIndex = 104;
             this.label59.Tag = "29";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label59.Click += new System.EventHandler(this.numeros);
-            // 
-            // label60
-            // 
-            this.label60.BackColor = System.Drawing.Color.Transparent;
-            this.label60.ForeColor = System.Drawing.Color.Black;
-            this.label60.Location = new System.Drawing.Point(467, 331);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(36, 37);
-            this.label60.TabIndex = 105;
             // 
             // label61
             // 
             this.label61.BackColor = System.Drawing.Color.Transparent;
+            this.label61.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.ForeColor = System.Drawing.Color.Black;
-            this.label61.Location = new System.Drawing.Point(311, 283);
+            this.label61.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label61.Location = new System.Drawing.Point(310, 292);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(36, 37);
+            this.label61.Size = new System.Drawing.Size(37, 37);
             this.label61.TabIndex = 105;
             this.label61.Tag = "30";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label61.Click += new System.EventHandler(this.numeros);
-            // 
-            // label62
-            // 
-            this.label62.BackColor = System.Drawing.Color.Transparent;
-            this.label62.ForeColor = System.Drawing.Color.Black;
-            this.label62.Location = new System.Drawing.Point(475, 339);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(36, 37);
-            this.label62.TabIndex = 106;
             // 
             // label63
             // 
             this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.label63.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.Color.Black;
-            this.label63.Location = new System.Drawing.Point(111, 323);
+            this.label63.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label63.Location = new System.Drawing.Point(110, 332);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(36, 37);
+            this.label63.Size = new System.Drawing.Size(37, 37);
             this.label63.TabIndex = 106;
             this.label63.Tag = "31";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label63.Click += new System.EventHandler(this.numeros);
-            // 
-            // label64
-            // 
-            this.label64.BackColor = System.Drawing.Color.Transparent;
-            this.label64.ForeColor = System.Drawing.Color.Black;
-            this.label64.Location = new System.Drawing.Point(483, 347);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(36, 37);
-            this.label64.TabIndex = 107;
             // 
             // label65
             // 
             this.label65.BackColor = System.Drawing.Color.Transparent;
+            this.label65.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label65.ForeColor = System.Drawing.Color.Black;
-            this.label65.Location = new System.Drawing.Point(143, 323);
+            this.label65.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label65.Location = new System.Drawing.Point(142, 332);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(36, 37);
+            this.label65.Size = new System.Drawing.Size(37, 37);
             this.label65.TabIndex = 107;
             this.label65.Tag = "32";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label65.Click += new System.EventHandler(this.numeros);
-            // 
-            // label66
-            // 
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.label66.ForeColor = System.Drawing.Color.Black;
-            this.label66.Location = new System.Drawing.Point(491, 355);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(36, 37);
-            this.label66.TabIndex = 108;
             // 
             // label67
             // 
             this.label67.BackColor = System.Drawing.Color.Transparent;
+            this.label67.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.Color.Black;
-            this.label67.Location = new System.Drawing.Point(227, 323);
+            this.label67.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label67.Location = new System.Drawing.Point(226, 332);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(36, 37);
+            this.label67.Size = new System.Drawing.Size(37, 37);
             this.label67.TabIndex = 108;
             this.label67.Tag = "34";
+            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label67.Click += new System.EventHandler(this.numeros);
-            // 
-            // label68
-            // 
-            this.label68.BackColor = System.Drawing.Color.Transparent;
-            this.label68.ForeColor = System.Drawing.Color.Black;
-            this.label68.Location = new System.Drawing.Point(499, 363);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(36, 37);
-            this.label68.TabIndex = 109;
             // 
             // label69
             // 
             this.label69.BackColor = System.Drawing.Color.Transparent;
+            this.label69.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.Color.Black;
-            this.label69.Location = new System.Drawing.Point(269, 323);
+            this.label69.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label69.Location = new System.Drawing.Point(268, 332);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(36, 37);
+            this.label69.Size = new System.Drawing.Size(37, 37);
             this.label69.TabIndex = 109;
             this.label69.Tag = "35";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label69.Click += new System.EventHandler(this.numeros);
             // 
             // label70
@@ -946,187 +954,265 @@
             // label71
             // 
             this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.label71.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label71.ForeColor = System.Drawing.Color.Black;
-            this.label71.Location = new System.Drawing.Point(311, 323);
+            this.label71.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label71.Location = new System.Drawing.Point(310, 332);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(36, 37);
+            this.label71.Size = new System.Drawing.Size(37, 37);
             this.label71.TabIndex = 110;
             this.label71.Tag = "36";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label71.Click += new System.EventHandler(this.numeros);
             // 
             // label72
             // 
             this.label72.BackColor = System.Drawing.Color.Transparent;
+            this.label72.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label72.ForeColor = System.Drawing.Color.Black;
-            this.label72.Location = new System.Drawing.Point(101, 363);
+            this.label72.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label72.Location = new System.Drawing.Point(100, 372);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(36, 37);
+            this.label72.Size = new System.Drawing.Size(37, 37);
             this.label72.TabIndex = 111;
             this.label72.Tag = "37";
+            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label72.Click += new System.EventHandler(this.numeros);
             // 
             // label73
             // 
             this.label73.BackColor = System.Drawing.Color.Transparent;
+            this.label73.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label73.ForeColor = System.Drawing.Color.Black;
-            this.label73.Location = new System.Drawing.Point(143, 363);
+            this.label73.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label73.Location = new System.Drawing.Point(142, 372);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(36, 37);
+            this.label73.Size = new System.Drawing.Size(37, 37);
             this.label73.TabIndex = 112;
             this.label73.Tag = "38";
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label73.Click += new System.EventHandler(this.numeros);
             // 
             // label74
             // 
             this.label74.BackColor = System.Drawing.Color.Transparent;
+            this.label74.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label74.ForeColor = System.Drawing.Color.Black;
-            this.label74.Location = new System.Drawing.Point(185, 363);
+            this.label74.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label74.Location = new System.Drawing.Point(184, 372);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(36, 37);
+            this.label74.Size = new System.Drawing.Size(37, 37);
             this.label74.TabIndex = 113;
             this.label74.Tag = "39";
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label74.Click += new System.EventHandler(this.numeros);
             // 
             // label75
             // 
             this.label75.BackColor = System.Drawing.Color.Transparent;
+            this.label75.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label75.ForeColor = System.Drawing.Color.Black;
-            this.label75.Location = new System.Drawing.Point(227, 360);
+            this.label75.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label75.Location = new System.Drawing.Point(226, 369);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(36, 37);
+            this.label75.Size = new System.Drawing.Size(37, 37);
             this.label75.TabIndex = 114;
             this.label75.Tag = "40";
+            this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label75.Click += new System.EventHandler(this.numeros);
             // 
             // label76
             // 
             this.label76.BackColor = System.Drawing.Color.Transparent;
+            this.label76.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label76.ForeColor = System.Drawing.Color.Black;
-            this.label76.Location = new System.Drawing.Point(269, 360);
+            this.label76.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label76.Location = new System.Drawing.Point(268, 369);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(36, 37);
+            this.label76.Size = new System.Drawing.Size(37, 37);
             this.label76.TabIndex = 115;
             this.label76.Tag = "41";
+            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label76.Click += new System.EventHandler(this.numeros);
             // 
             // label77
             // 
             this.label77.BackColor = System.Drawing.Color.Transparent;
+            this.label77.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label77.ForeColor = System.Drawing.Color.Black;
-            this.label77.Location = new System.Drawing.Point(311, 363);
+            this.label77.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label77.Location = new System.Drawing.Point(310, 372);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(36, 37);
+            this.label77.Size = new System.Drawing.Size(37, 37);
             this.label77.TabIndex = 116;
             this.label77.Tag = "42";
+            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label77.Click += new System.EventHandler(this.numeros);
             // 
             // label78
             // 
             this.label78.BackColor = System.Drawing.Color.Transparent;
+            this.label78.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label78.ForeColor = System.Drawing.Color.Black;
-            this.label78.Location = new System.Drawing.Point(143, 400);
+            this.label78.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label78.Location = new System.Drawing.Point(142, 409);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(36, 37);
+            this.label78.Size = new System.Drawing.Size(37, 37);
             this.label78.TabIndex = 117;
             this.label78.Tag = "44";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label78.Click += new System.EventHandler(this.numeros);
             // 
             // label79
             // 
             this.label79.BackColor = System.Drawing.Color.Transparent;
+            this.label79.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label79.ForeColor = System.Drawing.Color.Black;
-            this.label79.Location = new System.Drawing.Point(101, 400);
+            this.label79.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label79.Location = new System.Drawing.Point(100, 409);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(36, 37);
+            this.label79.Size = new System.Drawing.Size(37, 37);
             this.label79.TabIndex = 118;
             this.label79.Tag = "43";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label79.Click += new System.EventHandler(this.numeros);
             // 
             // label80
             // 
             this.label80.BackColor = System.Drawing.Color.Transparent;
+            this.label80.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label80.ForeColor = System.Drawing.Color.Black;
-            this.label80.Location = new System.Drawing.Point(185, 400);
+            this.label80.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label80.Location = new System.Drawing.Point(184, 409);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(36, 37);
+            this.label80.Size = new System.Drawing.Size(37, 37);
             this.label80.TabIndex = 119;
             this.label80.Tag = "45";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label80.Click += new System.EventHandler(this.numeros);
             // 
             // label81
             // 
             this.label81.BackColor = System.Drawing.Color.Transparent;
+            this.label81.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label81.ForeColor = System.Drawing.Color.Black;
-            this.label81.Location = new System.Drawing.Point(269, 400);
+            this.label81.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label81.Location = new System.Drawing.Point(268, 409);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(36, 37);
+            this.label81.Size = new System.Drawing.Size(37, 37);
             this.label81.TabIndex = 120;
             this.label81.Tag = "47";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label81.Click += new System.EventHandler(this.numeros);
             // 
             // label82
             // 
             this.label82.BackColor = System.Drawing.Color.Transparent;
+            this.label82.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label82.ForeColor = System.Drawing.Color.Black;
-            this.label82.Location = new System.Drawing.Point(311, 411);
+            this.label82.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label82.Location = new System.Drawing.Point(310, 420);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(36, 37);
+            this.label82.Size = new System.Drawing.Size(37, 37);
             this.label82.TabIndex = 121;
             this.label82.Tag = "48";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label82.Click += new System.EventHandler(this.numeros);
             // 
             // label83
             // 
             this.label83.BackColor = System.Drawing.Color.Transparent;
+            this.label83.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label83.ForeColor = System.Drawing.Color.Black;
-            this.label83.Location = new System.Drawing.Point(227, 400);
+            this.label83.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label83.Location = new System.Drawing.Point(226, 409);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(36, 37);
+            this.label83.Size = new System.Drawing.Size(37, 37);
             this.label83.TabIndex = 122;
             this.label83.Tag = "46";
+            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label83.Click += new System.EventHandler(this.numeros);
             // 
             // label84
             // 
             this.label84.BackColor = System.Drawing.Color.Transparent;
+            this.label84.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label84.ForeColor = System.Drawing.Color.Black;
-            this.label84.Location = new System.Drawing.Point(101, 445);
+            this.label84.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label84.Location = new System.Drawing.Point(100, 454);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(36, 37);
+            this.label84.Size = new System.Drawing.Size(37, 37);
             this.label84.TabIndex = 123;
             this.label84.Tag = "49";
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label84.Click += new System.EventHandler(this.numeros);
             // 
             // label85
             // 
             this.label85.BackColor = System.Drawing.Color.Transparent;
+            this.label85.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label85.ForeColor = System.Drawing.Color.Black;
-            this.label85.Location = new System.Drawing.Point(143, 445);
+            this.label85.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label85.Location = new System.Drawing.Point(142, 454);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(36, 37);
+            this.label85.Size = new System.Drawing.Size(37, 37);
             this.label85.TabIndex = 124;
             this.label85.Tag = "50";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label85.Click += new System.EventHandler(this.numeros);
             // 
             // teste
             // 
             this.teste.BackColor = System.Drawing.Color.Transparent;
             this.teste.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.ForeColor = System.Drawing.Color.Black;
-            this.teste.Location = new System.Drawing.Point(368, 29);
+            this.teste.ForeColor = System.Drawing.Color.White;
+            this.teste.Location = new System.Drawing.Point(561, 30);
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(87, 25);
             this.teste.TabIndex = 125;
             this.teste.Text = "Teste";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Euromilhoes_Finau.Properties.Resources.euromilhoes1;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(162, 85);
+            this.pictureBox1.TabIndex = 126;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(191, 30);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(226, 40);
+            this.label31.TabIndex = 127;
+            this.label31.Text = "EuroMilhões";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Euromilhoes_Finau.Properties.Resources.bntr;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 520);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(269, 72);
+            this.pictureBox2.TabIndex = 128;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.DarkBlue;
             this.BackgroundImage = global::Euromilhoes_Finau.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label85);
             this.Controls.Add(this.label84);
@@ -1145,29 +1231,19 @@
             this.Controls.Add(this.label71);
             this.Controls.Add(this.label70);
             this.Controls.Add(this.label69);
-            this.Controls.Add(this.label68);
             this.Controls.Add(this.label67);
-            this.Controls.Add(this.label66);
             this.Controls.Add(this.label65);
-            this.Controls.Add(this.label64);
             this.Controls.Add(this.label63);
-            this.Controls.Add(this.label62);
             this.Controls.Add(this.label61);
-            this.Controls.Add(this.label60);
             this.Controls.Add(this.label59);
-            this.Controls.Add(this.label58);
             this.Controls.Add(this.label57);
-            this.Controls.Add(this.label56);
             this.Controls.Add(this.label55);
-            this.Controls.Add(this.label54);
             this.Controls.Add(this.label53);
-            this.Controls.Add(this.label52);
             this.Controls.Add(this.label51);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label48);
             this.Controls.Add(this.label47);
-            this.Controls.Add(this.label46);
             this.Controls.Add(this.label45);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.label43);
@@ -1182,7 +1258,6 @@
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label28);
@@ -1214,12 +1289,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Transparent;
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "Form1";
             this.Tag = "33";
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.estrela);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1255,7 +1333,6 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
@@ -1270,29 +1347,19 @@
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label66;
         private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label71;
@@ -1311,6 +1378,9 @@
         private System.Windows.Forms.Label label84;
         private System.Windows.Forms.Label label85;
         private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
