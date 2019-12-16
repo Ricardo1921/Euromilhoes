@@ -1,4 +1,4 @@
-﻿namespace Euromilhoes_Finau
+﻿namespace Euro
 {
     partial class Form1
     {
@@ -105,9 +105,15 @@
             this.teste = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.n1 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.e2 = new System.Windows.Forms.Label();
+            this.e1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -132,7 +138,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(612, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 33);
+            this.label2.Size = new System.Drawing.Size(36, 142);
             this.label2.TabIndex = 52;
             this.label2.Tag = "2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -147,7 +153,7 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(712, 155);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 33);
+            this.label3.Size = new System.Drawing.Size(36, 142);
             this.label3.TabIndex = 53;
             this.label3.Tag = "3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -162,7 +168,7 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(512, 429);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 33);
+            this.label4.Size = new System.Drawing.Size(36, 142);
             this.label4.TabIndex = 54;
             this.label4.Tag = "10";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -177,7 +183,7 @@
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(712, 337);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 33);
+            this.label5.Size = new System.Drawing.Size(36, 142);
             this.label5.TabIndex = 55;
             this.label5.Tag = "9";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -192,7 +198,7 @@
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(612, 337);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 33);
+            this.label6.Size = new System.Drawing.Size(36, 142);
             this.label6.TabIndex = 56;
             this.label6.Tag = "8";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -207,7 +213,7 @@
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(512, 337);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 33);
+            this.label7.Size = new System.Drawing.Size(36, 142);
             this.label7.TabIndex = 57;
             this.label7.Tag = "7";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -222,7 +228,7 @@
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(712, 247);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 33);
+            this.label8.Size = new System.Drawing.Size(36, 142);
             this.label8.TabIndex = 58;
             this.label8.Tag = "6";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -237,7 +243,7 @@
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(612, 247);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 33);
+            this.label9.Size = new System.Drawing.Size(36, 142);
             this.label9.TabIndex = 59;
             this.label9.Tag = "5";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -252,7 +258,7 @@
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(512, 247);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 33);
+            this.label10.Size = new System.Drawing.Size(36, 142);
             this.label10.TabIndex = 60;
             this.label10.Tag = "4";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -267,7 +273,7 @@
             this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(712, 429);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(36, 33);
+            this.label12.Size = new System.Drawing.Size(36, 142);
             this.label12.TabIndex = 62;
             this.label12.Tag = "12";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -282,7 +288,7 @@
             this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(612, 429);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(36, 33);
+            this.label13.Size = new System.Drawing.Size(36, 142);
             this.label13.TabIndex = 63;
             this.label13.Tag = "11";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -310,7 +316,7 @@
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(607, 155);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 33);
+            this.label14.Size = new System.Drawing.Size(41, 142);
             this.label14.TabIndex = 65;
             this.label14.Tag = "2";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -325,7 +331,7 @@
             this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(707, 155);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 33);
+            this.label15.Size = new System.Drawing.Size(41, 142);
             this.label15.TabIndex = 66;
             this.label15.Tag = "3";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -340,7 +346,7 @@
             this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(515, 247);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 33);
+            this.label16.Size = new System.Drawing.Size(41, 142);
             this.label16.TabIndex = 67;
             this.label16.Tag = "4";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -355,7 +361,7 @@
             this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(607, 247);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 33);
+            this.label17.Size = new System.Drawing.Size(41, 142);
             this.label17.TabIndex = 68;
             this.label17.Tag = "5";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -370,7 +376,7 @@
             this.label18.ForeColor = System.Drawing.Color.Black;
             this.label18.Location = new System.Drawing.Point(707, 247);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 33);
+            this.label18.Size = new System.Drawing.Size(41, 142);
             this.label18.TabIndex = 69;
             this.label18.Tag = "6";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -385,7 +391,7 @@
             this.label19.ForeColor = System.Drawing.Color.Black;
             this.label19.Location = new System.Drawing.Point(507, 337);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 33);
+            this.label19.Size = new System.Drawing.Size(41, 142);
             this.label19.TabIndex = 70;
             this.label19.Tag = "7";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -400,7 +406,7 @@
             this.label20.ForeColor = System.Drawing.Color.Black;
             this.label20.Location = new System.Drawing.Point(607, 337);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 33);
+            this.label20.Size = new System.Drawing.Size(41, 142);
             this.label20.TabIndex = 71;
             this.label20.Tag = "8";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -415,7 +421,7 @@
             this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(707, 337);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 33);
+            this.label21.Size = new System.Drawing.Size(41, 142);
             this.label21.TabIndex = 72;
             this.label21.Tag = "9";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -430,7 +436,7 @@
             this.label22.ForeColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(507, 429);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 33);
+            this.label22.Size = new System.Drawing.Size(41, 142);
             this.label22.TabIndex = 73;
             this.label22.Tag = "10";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -445,7 +451,7 @@
             this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(607, 429);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(41, 33);
+            this.label23.Size = new System.Drawing.Size(41, 142);
             this.label23.TabIndex = 74;
             this.label23.Tag = "12";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -460,7 +466,7 @@
             this.label24.ForeColor = System.Drawing.Color.Black;
             this.label24.Location = new System.Drawing.Point(707, 429);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(41, 33);
+            this.label24.Size = new System.Drawing.Size(41, 142);
             this.label24.TabIndex = 75;
             this.label24.Tag = "12";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1171,6 +1177,7 @@
             this.teste.Size = new System.Drawing.Size(87, 25);
             this.teste.TabIndex = 125;
             this.teste.Text = "Teste";
+            this.teste.Click += new System.EventHandler(this.Teste_Click);
             // 
             // pictureBox1
             // 
@@ -1192,15 +1199,83 @@
             this.label31.TabIndex = 127;
             this.label31.Text = "EuroMilhões";
             // 
-            // pictureBox2
+            // button1
             // 
-            this.pictureBox2.BackgroundImage = global::Euromilhoes_Finau.Properties.Resources.bntr;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 520);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(269, 72);
-            this.pictureBox2.TabIndex = 128;
-            this.pictureBox2.TabStop = false;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(364, 237);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(93, 47);
+            this.button1.TabIndex = 129;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // n1
+            // 
+            this.n1.BackColor = System.Drawing.Color.White;
+            this.n1.ForeColor = System.Drawing.Color.White;
+            this.n1.Location = new System.Drawing.Point(29, 644);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(51, 13);
+            this.n1.TabIndex = 130;
+            this.n1.Tag = "n1";
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.White;
+            this.n3.ForeColor = System.Drawing.Color.White;
+            this.n3.Location = new System.Drawing.Point(133, 644);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(41, 13);
+            this.n3.TabIndex = 131;
+            this.n3.Tag = "n3";
+            // 
+            // n2
+            // 
+            this.n2.BackColor = System.Drawing.Color.White;
+            this.n2.ForeColor = System.Drawing.Color.White;
+            this.n2.Location = new System.Drawing.Point(86, 644);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(41, 13);
+            this.n2.TabIndex = 132;
+            this.n2.Tag = "n2";
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.White;
+            this.n5.ForeColor = System.Drawing.Color.White;
+            this.n5.Location = new System.Drawing.Point(227, 644);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(41, 13);
+            this.n5.TabIndex = 133;
+            this.n5.Tag = "n5";
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.White;
+            this.n4.ForeColor = System.Drawing.Color.White;
+            this.n4.Location = new System.Drawing.Point(180, 644);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(41, 13);
+            this.n4.TabIndex = 134;
+            this.n4.Tag = "n4";
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.Color.White;
+            this.e2.Location = new System.Drawing.Point(692, 644);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(41, 13);
+            this.e2.TabIndex = 135;
+            this.e2.Text = "label60";
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.Color.White;
+            this.e1.Location = new System.Drawing.Point(627, 644);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(41, 13);
+            this.e1.TabIndex = 136;
+            this.e1.Text = "label62";
             // 
             // Form1
             // 
@@ -1209,8 +1284,15 @@
             this.BackColor = System.Drawing.Color.DarkBlue;
             this.BackgroundImage = global::Euromilhoes_Finau.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(874, 602);
-            this.Controls.Add(this.pictureBox2);
+            this.ClientSize = new System.Drawing.Size(874, 711);
+            this.Controls.Add(this.e1);
+            this.Controls.Add(this.e2);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
@@ -1295,7 +1377,6 @@
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.estrela);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1380,7 +1461,14 @@
         private System.Windows.Forms.Label teste;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label e2;
+        private System.Windows.Forms.Label e1;
+        private System.Windows.Forms.Label n5;
     }
 }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Euromilhoes_Finau
+namespace Euro
 {
     class euromilhoes
     {
@@ -13,6 +13,10 @@ namespace Euromilhoes_Finau
         private const string cruz = "X";
         private bool[] numeros = new bool[50];
         private bool[] estrelas = new bool[12];
+
+        public int[] nsorteia => sorteia(5, 50);
+
+        public int[] sorteia => sorteia(5, 50);
 
         public string numero(int n)
         {
@@ -31,7 +35,6 @@ namespace Euromilhoes_Finau
             else return "";
 
         }
-
         public string estrela(int n)
         {
             if (estrelas[n])
@@ -49,12 +52,11 @@ namespace Euromilhoes_Finau
             else return "";
 
         }
-
         public string listanum
         {
             get
             {
-                string lista = " ";
+                string lista = "";
                 for (int i = 0; i < 50; i++)
                     if (numeros[i])
                     {
@@ -64,13 +66,13 @@ namespace Euromilhoes_Finau
                 return lista;
             }
         }
-        public string listanest
+        public string listaest
         {
             get
             {
-                string lista = " ";
+                string lista = "";
                 for (int i = 0; i < 12; i++)
-                    if (numeros[i])
+                    if (estrelas[i])
                     {
                         if (lista != "") lista += "+";
                         lista += (i + 1).ToString();
@@ -78,5 +80,22 @@ namespace Euromilhoes_Finau
                 return lista;
             }
         }
+        public int[] sorteias(int qtd, int max)
+        {
+            List<int> l = new List<int>();
+            Random rnd = new Random();
+            for (int i = 0; i < qtd; i++)
+            {
+                int tmp;
+                do tmp = rnd.Next(1, max + 1);
+                while (l.Contains(tmp));
+                l.Add(tmp);
+            }
+            l.Sort();
+            return l.ToArray();
+
+
+        }
+
     }
 }
